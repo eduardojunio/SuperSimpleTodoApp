@@ -7,18 +7,25 @@ export default StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#fff',
     borderBottomWidth: 1,
-    borderBottomColor: '#ededed',
-    padding: 20
+    borderBottomColor: '#ededed'
   },
   title: {
     position: 'absolute',
-    top: 0,
+    top: 15,
     bottom: 0,
     left: 0,
     right: 0,
     textAlign: 'center',
-    fontSize: 28,
-    fontWeight: 'bold',
+    fontSize: 24,
     color: '#000'
+  },
+  icon: {
+    paddingHorizontal: 25,
+    paddingVertical: 15
+  },
+  placeholder: {
+    width: 34,
+    height: 34,
+    backgroundColor: 'transparent'
   }
 })

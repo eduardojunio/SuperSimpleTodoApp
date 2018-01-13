@@ -9,8 +9,9 @@ export default class Header extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>ToDos</Text>
-        <TouchableOpacity>
-          <Icon name={'ios-alert'} size={30} color={'#000'} />
+        <View style={styles.placeholder} />
+        <TouchableOpacity style={styles.icon}>
+          <Icon name={'ios-add'} size={34} color={'#000'} />
         </TouchableOpacity>
       </View>
     )
